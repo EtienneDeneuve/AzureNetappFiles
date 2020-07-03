@@ -3,6 +3,7 @@ provider "azurerm" {
 }
 
 data "azurerm_subscription" "primary" {
+  
 }
 
 resource "azurerm_role_definition" "tf-anf-va" {
